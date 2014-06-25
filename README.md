@@ -12,6 +12,7 @@ Things this should be able to do:
 	* Walking the callback list kernel structure and removing those belonging to memory regions of some given driver
 * Hide given process names from the process list. Really.
 
+
 * Hide existance of a given module name from being seen in the PEB of any processes?
 * Hide given file names on disk? -- might need a kernel patch :(
 	* Alternatively, replace the original file path field of the `KPROCESS` structure for a given process name with something funny
