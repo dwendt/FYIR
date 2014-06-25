@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FYIR", "FYIR.vcxproj", "{312E8781-5B03-4055-A2C9-7404C7CE65FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{312E8781-5B03-4055-A2C9-7404C7CE65FA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{312E8781-5B03-4055-A2C9-7404C7CE65FA}.Debug|Win32.Build.0 = Debug|Win32
+		{312E8781-5B03-4055-A2C9-7404C7CE65FA}.Release|Win32.ActiveCfg = Release|Win32
+		{312E8781-5B03-4055-A2C9-7404C7CE65FA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
