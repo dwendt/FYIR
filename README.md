@@ -1,4 +1,4 @@
-== FYouI'mRoot
+# FYouI'mRoot
 
 This is a Windows 7 driver(hopefully x86 and x86_64) that allows an administrator to endulge in the things they should rightfully be able to do on their own computer. Drivers that serve no purpose other than to prevent reverse engineering/development and make life difficult are increasingly common, as can be seen in PunkBuster, Ahnlabs HackShield(EagleNT.sys, Eagle64.sys), Tencent's TenProtect(TenSafe.sys), etc. Fuck that shit, this is my OS.
 
