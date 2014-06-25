@@ -6,16 +6,16 @@ It will never be necessary to disable patchguard. To run this driver, you will n
 
 ##This should:
 
-* Dump/log files being written to that match a given name
-* Prevent `ObRegisterCallback`s intended to deny process handle requests, by either:
+- [ ] Dump/log files being written to that match a given name
+- [ ] Prevent `ObRegisterCallback`s intended to deny process handle requests, by either:
 	* Providing an API to request a handle via the driver
 	* Walking the callback list kernel structure and removing those belonging to memory regions of some given driver
-* Hide given process names from the process list. Really.
+- [ ] Hide given process names from the process list. Really.
 
 
 ---------
 ### (and maybe)
-* Hide existance of a given module name from being seen in the PEB of any processes?
-* Hide given file names on disk? -- might need a kernel patch :(
-	* Alternatively, replace the original file path field of the `KPROCESS` structure for a given process name with something funny
-* Dump a given running driver to disk?
+- [ ] Hide existance of a given module name from being seen in the PEB of any processes?
+- [ ] Hide given file names on disk? -- might need a kernel patch :(
+	- [ ] Alternatively, replace the original file path field of the `KPROCESS` structure for a given process name with something funny
+- [ ] Dump a given running driver to disk?
