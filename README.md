@@ -18,4 +18,4 @@ It will never be necessary to disable patchguard. To run this driver, you will n
 - [ ] Hide existance of a given module name from being seen in the PEB of any processes?
 - [ ] Hide given file names on disk? -- might need a kernel patch :(
 	- [ ] Alternatively, replace the original file path field of the `KPROCESS` structure for a given process name with something funny
-- [ ] Dump a given running driver to disk?
+- [ ] Dump a given running driver to disk? -- maybe pattern scan 0x80000000 to 0xFFFFFFFF 
