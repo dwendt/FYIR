@@ -4,7 +4,7 @@ This is a Windows 7 driver(hopefully x86 and x86_64) that allows an administrato
 
 It will never be necessary to disable patchguard. To run this driver, you will need to self-sign it, todo: instructions will be provided.
 
-Things this should be able to do:
+##This should:
 
 * Dump/log files being written to that match a given name
 * Prevent `ObRegisterCallback`s intended to deny process handle requests, by either:
